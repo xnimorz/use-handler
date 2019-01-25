@@ -1,6 +1,6 @@
 {
   "name": "use-handler",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React-hook, that returns handler only once while component mounted. Your link for a function won't be changed. It's useful for optimizations",
   "main": "lib/index.js",
   "typings": "src/index.d.ts",
@@ -12,7 +12,9 @@
     "url": "git+ssh://git@github.com/xnimorz/use-debounce.git"
   },
   "keywords": [
-    "debounce",
+    "cache value",
+    "handler",
+    "callback",
     "react-hook",
     "react"
   ],
