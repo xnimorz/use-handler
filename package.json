@@ -1,0 +1,37 @@
+{
+  "name": "use-handler",
+  "version": "0.0.1",
+  "description": "React-hook, that returns handler only once while component mounted. Your link for a function won't be changed. It's useful for optimizations",
+  "main": "lib/index.js",
+  "typings": "src/index.d.ts",
+  "scripts": {
+    "build": "babel ./src --out-dir ./lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/xnimorz/use-debounce.git"
+  },
+  "keywords": [
+    "debounce",
+    "react-hook",
+    "react"
+  ],
+  "author": "Nikita Mostovoy (nik.mostovoy@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xnimorz/use-debounce/issues"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0-alpha.0",
+    "react-dom": ">=16.8.0-alpha.0"
+  },
+  "homepage": "https://github.com/xnimorz/use-debounce#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.8.0-alpha.0",
+    "react-dom": "^16.8.0-alpha.0"
+  }
+}
